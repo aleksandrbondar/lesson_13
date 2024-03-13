@@ -17,13 +17,14 @@
 }
 
 .change-color {
-  transition: linear 1s;
+  transition: linear 2s;
 }
 
 .change-color:hover,
 .change-color:active {
-  transition: linear 0.5s;
-  fill: gray;
-  stroke: darkgrey;
+  transition: linear 0.3s;
+  fill: orange;
+  stroke: yellow;
   stroke-width: 10px;
+  transform: rotateX(45deg);
 }
